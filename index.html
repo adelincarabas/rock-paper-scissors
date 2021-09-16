@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piatra foarfeca hartie</title>
+    <link type="text/css" rel="stylesheet" href="css/styles.css" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/duotone.min.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/all.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="gameHeader">
+      <h1>
+        <span class="purple-color">FIRE</span>&nbsp;
+        <span class="green-color">WATER</span>&nbsp;
+        <span class="red-color">WIND</span>&nbsp;
+      </h1>
+      <p>3 Weapons | 5 Lives | 2 Outcomes</p>
+      <p>
+        <span class="purple-color">Fire</span> beats
+        <span class="red-color">Wind</span> |
+        <span class="red-color">Wind</span> beats
+        <span class="green-color">Water</span> ︱
+        <span class="green-color">Water</span> beats
+        <span class="purple-color">Fire</span>
+      </p>
+    </header>
+    <main class="main-content">
+      <div class="weapons-area">
+        <button class="fire-button weapon-button">
+          <i class="fad fa-fire weapon-icon fire-icon"></i>
+        </button>
+        <button class="water-button weapon-button">
+          <i class="fad fa-water weapon-icon water-icon"></i>
+        </button>
+        <button class="wind-button weapon-button">
+          <i class="fad fa-wind weapon-icon wind-icon"></i>
+        </button>
+      </div>
+
+      <img src="images/separator.webp" alt="Separator" class="separator" />
+
+      <div class="game-output">
+        <div class="computer-play-div grey-border centering">
+          <p class="computer-title">Enemy's Style</p>
+          <i class="computer-icon fad fa-skull"></i>
+        </div>
+        <div class="game-results">
+          <p class="round">Round: 0</p>
+          <p class="lives">Lives: 5 ︱ Enemy's Lives: 5</p>
+          <p class="combat-text">Combat Area: Empty</p>
+        </div>
+      </div>
+
+      <div class="game-end-div">
+        <p class="game-end-text"></p>
+        <button class="play-again">Repeat</button>
+      </div>
+
+      <footer class="copyright">
+        <p>Adelin Carabas</p>
+      </footer>
+      <script type="text/javascript" src="script.js"></script>
+    </main>
+  </body>
+</html>
