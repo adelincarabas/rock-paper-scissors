@@ -36,3 +36,38 @@ body {
   background-color: transparent;
   border: none;
 }
+
+.weapon-button:focus,
+.play-again:focus {
+  outline: none;
+}
+
+.weapon-icon {
+  margin: 50px 0;
+  color: #5e5e5e;
+  font-size: 70px;
+  transition: all 0.3s;
+}
+
+.weapon-icon:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.fire-icon:hover {
+  color: #e25822 !important;
+}
+.water-icon:hover {
+  color: aqua !important;
+}
+.wind-icon:hover {
+  color: #3b3b3b !important;
+}
+
+.separator {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
