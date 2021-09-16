@@ -10,13 +10,13 @@ body {
 }
 
 .purple-color {
-  color: #8070ac;
+  color: #e25822;
 }
 .green-color {
-  color: #62b49c;
+  color: aqua;
 }
 .red-color {
-  color: #b96b78;
+  color: #3b3b3b;
 }
 .main-content {
   display: flex;
@@ -129,4 +129,26 @@ body {
   background-color: #fff;
   border-top: 4px solid #5e5e5e;
   text-align: center;
+}
+
+.purple-border {
+  border-right: 4px solid #8070ac;
+}
+.green-border {
+  border-right: 4px solid #62b49c;
+}
+.red-border {
+  border-right: 4px solid #b96b78;
+}
+.grey-border {
+  border-right: 4px solid #5e5e5e;
+}
+
+.disabled-button .weapon-icon {
+  cursor: default;
+  transform: none;
+}
+.disabled-button .weapon-icon {
+  cursor: default;
+  transform: none;
 }
