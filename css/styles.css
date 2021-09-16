@@ -1,1 +1,38 @@
+body {
+  font-family: "Macondo Swash Caps", cursive;
+  color: #5e5e5e;
+}
 
+.gameHeader {
+  text-align: center;
+  font-size: 25px;
+  color: #5e5e5e;
+}
+
+.purple-color {
+  color: #8070ac;
+}
+.green-color {
+  color: #62b49c;
+}
+.red-color {
+  color: #b96b78;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+.weapons-area {
+  display: flex;
+  justify-content: space-evenly;
+  border: 4px solid #5e5e5e;
+  border-radius: 5px;
+}
+
+.weapon-button {
+  background-color: transparent;
+  border: none;
+}
